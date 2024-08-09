@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+
+}
+/* navbar style */
+.navbar{
+  background-color: rgba(8, 3, 47, 0.938);
+  /* height: 50px; */
+  
+}
+.navlogo{
+  width: 40%;
+  
+  margin: auto; 
+}
+.navlogo p {
+  font-size: 28px;
+  font-family: "Handlee", cursive;
+  font-weight:500;
+  font-style:italic;
+  color: white;
+  text-transform: capitalize;
+  
+}
+.navlist {
+  flex-grow: 1;
+}
+.navlist ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  
+} 
+.navlist ul li a{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+}
+
+/* header */
+.header{
+  height: 700px;
+  background-color: rgb(151, 143, 150);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.header_contetn{
+  background-color: rgba(54, 42, 91,0.3);
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  border-top: 1px solid red;
+  color: white;
+  
+}
+.header_contetn p {
+ margin-left: 20px; 
+}
